@@ -1,0 +1,46 @@
+.header {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.total {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+.border {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(24, 41, 41, 0.2);
+  margin-bottom: 1rem;
+}
+.incomeExpense {
+  display: grid;
+  grid-template-columns: 1fr 5px 1fr;
+  gap: 1rem;
+  background-color: aliceblue;
+  border-radius: 3px;
+  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.25);
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h5 {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  .divider {
+    margin: auto 0;
+    height: 90%;
+    width: 1px;
+    background-color: rgba(95, 158, 160, 0.25);
+  }
+  p {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+}
